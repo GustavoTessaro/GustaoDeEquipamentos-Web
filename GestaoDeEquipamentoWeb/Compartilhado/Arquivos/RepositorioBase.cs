@@ -1,5 +1,4 @@
 using GestaoDeEquipamentoWeb.Compartilhado.Arquivos;
-using GestaoDeEquipamentoWeb.Compartilhado.Arquivos;
 
 public abstract class RepositorioBase<T> where T : EntidadeBase<T>
 {
