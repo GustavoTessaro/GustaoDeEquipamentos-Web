@@ -1,0 +1,10 @@
+using GestaoDeEquipamentoWeb.Compartilhado.Arquivos;
+
+public interface InterfaceRepositorio<T> where T : EntidadeBase<T>
+{
+    void Cadastrar(T entidade);
+    bool Editar(string idSelecionado, T entidadeAtualizada);
+    bool Excluir(T registro);
+    T? SelecionarPorId(string idSelecionado);
+    List<T> SelecionarTodos();
+}
