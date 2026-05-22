@@ -49,3 +49,4 @@ public record ExcluirEquipamentoViewModel(
     DateTime DataFabricacao,
     string Fabricante
 );
+

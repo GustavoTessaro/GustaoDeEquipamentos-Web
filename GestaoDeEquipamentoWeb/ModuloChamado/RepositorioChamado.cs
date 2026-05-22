@@ -1,4 +1,4 @@
-using GestaoDeEquipamentosWeb.ConsoleApp.Compartilhado.Arquivos;
+using GestaoDeEquipamentoWeb.Compartilhado.Arquivos;
 
 public class RepositorioChamadoEmArquivo : RepositorioBase<Chamado>, InterfaceRepositorio<Chamado>
 {
@@ -9,3 +9,4 @@ public class RepositorioChamadoEmArquivo : RepositorioBase<Chamado>, InterfaceRe
         return contexto.Chamados;
     }
 }
+

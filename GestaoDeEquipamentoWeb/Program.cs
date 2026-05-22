@@ -1,17 +1,18 @@
-ï»¿// ASP.NET Core - AplicaÃ§Ã£o Web
+// ASP.NET Core - Aplicação Web
 // Builder de um servidor web
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 // MVC
 builder.Services.AddControllersWithViews();
 
-// CriaÃ§Ã£o da instÃ¢ncia do servidor web
+// Criação da instância do servidor web
 WebApplication app = builder.Build();
 
-// Middlewares - FunÃ§Ãµes que executam em cada chamada que o nosso servidor vai receber
+// Middlewares - Funções que executam em cada chamada que o nosso servidor vai receber
 app.UseStaticFiles();
 app.UseRouting();
 app.MapDefaultControllerRoute();
 
-// Inicia o loop da aplicaÃ§Ã£o
+// Inicia o loop da aplicação
 app.Run();
+

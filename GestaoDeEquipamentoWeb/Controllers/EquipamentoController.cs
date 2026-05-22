@@ -1,10 +1,10 @@
-using GestaoDeEquipamentosWeb.ConsoleApp.Compartilhado.Arquivos;
-using GestaoDeEquipamentosWeb.ConsoleApp.ModuloEquipamento;
-using GestaoDeEquipamentosWeb.ConsoleApp.ModuloFabricante;
+using GestaoDeEquipamentoWeb.Compartilhado.Arquivos;
+using GestaoDeEquipamentoWeb.ModuloEquipamento;
+using GestaoDeEquipamentoWeb.ModuloFabricante;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace GestaoDeEquipamentosWeb.ConsoleApp.Controllers;
+namespace GestaoDeEquipamentoWeb.Controllers;
 
 public class EquipamentoController : Controller
 {
@@ -194,3 +194,4 @@ public class EquipamentoController : Controller
         return selecionarFabricantes;
     }
 }
+

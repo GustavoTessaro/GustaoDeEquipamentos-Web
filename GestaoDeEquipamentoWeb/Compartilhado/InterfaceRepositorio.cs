@@ -8,3 +8,4 @@ public interface InterfaceRepositorio<T> where T : EntidadeBase<T>
     T? SelecionarPorId(string idSelecionado);
     List<T> SelecionarTodos();
 }
+

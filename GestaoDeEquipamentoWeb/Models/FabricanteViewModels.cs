@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace GestaoDeEquipamentosWeb.ConsoleApp.Models;
+namespace GestaoDeEquipamentoWeb.Models;
 
 public record ListarFabricantesViewModel(
     string Id,
@@ -43,3 +43,4 @@ public record ExcluirFabricanteViewModel(
     string Email,
     string Telefone
 );
+

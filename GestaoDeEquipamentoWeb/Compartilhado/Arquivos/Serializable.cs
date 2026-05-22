@@ -1,9 +1,9 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using GestaoDeEquipamentosWeb.ConsoleApp.ModuloEquipamento;
-using GestaoDeEquipamentosWeb.ConsoleApp.ModuloFabricante;
+using GestaoDeEquipamentoWeb.ModuloEquipamento;
+using GestaoDeEquipamentoWeb.ModuloFabricante;
 
-namespace GestaoDeEquipamentosWeb.ConsoleApp.Compartilhado.Arquivos;
+namespace GestaoDeEquipamentoWeb.Compartilhado.Arquivos;
 
 public sealed class Serializable
 {
@@ -17,7 +17,7 @@ public sealed class Serializable
     {
         string caminhoAppData = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
 
-        string caminhoDiretorio = Path.Combine(caminhoAppData, "GestaoDeEquipamentosWeb");
+        string caminhoDiretorio = Path.Combine(caminhoAppData, "GestaoDeEquipamentoWeb");
 
         Directory.CreateDirectory(caminhoDiretorio);
 
@@ -57,3 +57,4 @@ public sealed class Serializable
         this.Chamados = contextoSalvo.Chamados;
     }
 }
+

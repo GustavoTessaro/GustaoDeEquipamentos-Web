@@ -1,7 +1,7 @@
-using GestaoDeEquipamentosWeb.ConsoleApp.ModuloFabricante;
+using GestaoDeEquipamentoWeb.ModuloFabricante;
 using GestaoDeEquipamentoWeb.Compartilhado.Arquivos;
 
-namespace GestaoDeEquipamentosWeb.ConsoleApp.ModuloEquipamento;
+namespace GestaoDeEquipamentoWeb.ModuloEquipamento;
 
 public class Equipamento : EntidadeBase<Equipamento>
 {
@@ -52,3 +52,4 @@ public class Equipamento : EntidadeBase<Equipamento>
         Fabricante = entidadeAtualizada.Fabricante;
     }
 }
+

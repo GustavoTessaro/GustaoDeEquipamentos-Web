@@ -1,4 +1,4 @@
-using GestaoDeEquipamentosWeb.ConsoleApp.Compartilhado.Arquivos;
+using GestaoDeEquipamentoWeb.Compartilhado.Arquivos;
 using GestaoDeEquipamentoWeb.Compartilhado.Arquivos;
 
 public abstract class RepositorioBase<T> where T : EntidadeBase<T>
@@ -71,3 +71,4 @@ public abstract class RepositorioBase<T> where T : EntidadeBase<T>
         return registros;
     }
 }
+

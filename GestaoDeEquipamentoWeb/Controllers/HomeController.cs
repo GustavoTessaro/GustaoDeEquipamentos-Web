@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace GestaoDeEquipamentosWeb.ConsoleApp.Controllers;
+namespace GestaoDeEquipamentoWeb.Controllers;
 public class HomeController : Controller
 {
     public ActionResult Index()
@@ -9,3 +9,4 @@ public class HomeController : Controller
     }
 
 }
+

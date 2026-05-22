@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace GestaoDeEquipamentosWeb.ConsoleApp.Models;
+namespace GestaoDeEquipamentoWeb.Models;
 
 public record ListarChamadoViewModel(
     string Id,
@@ -46,3 +46,4 @@ public record ExcluirChamadoViewModel(
     int TempoDecorrido,
     bool EstaConcluido
 );
+

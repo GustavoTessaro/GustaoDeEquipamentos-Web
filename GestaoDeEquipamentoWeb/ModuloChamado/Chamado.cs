@@ -1,4 +1,4 @@
-using GestaoDeEquipamentosWeb.ConsoleApp.ModuloEquipamento;
+using GestaoDeEquipamentoWeb.ModuloEquipamento;
 using GestaoDeEquipamentoWeb.Compartilhado.Arquivos;
 public class Chamado : EntidadeBase<Chamado>
 {
@@ -51,3 +51,4 @@ public class Chamado : EntidadeBase<Chamado>
         Equipamento = entidadeAtualizada.Equipamento;
     }
 }
+

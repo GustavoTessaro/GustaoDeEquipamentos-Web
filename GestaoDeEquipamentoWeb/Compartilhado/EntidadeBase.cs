@@ -12,3 +12,4 @@ namespace GestaoDeEquipamentoWeb.Compartilhado.Arquivos
         public abstract void AtualizarDados(T entidadeAtualizada);
     }
 }
+

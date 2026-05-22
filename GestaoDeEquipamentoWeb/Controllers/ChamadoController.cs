@@ -1,11 +1,11 @@
-using GestaoDeEquipamentosWeb.ConsoleApp.Compartilhado;
-using GestaoDeEquipamentosWeb.ConsoleApp.Compartilhado.Arquivos;
-using GestaoDeEquipamentosWeb.ConsoleApp.Models;
-using GestaoDeEquipamentosWeb.ConsoleApp.ModuloEquipamento;
+using GestaoDeEquipamentoWeb.Compartilhado;
+using GestaoDeEquipamentoWeb.Compartilhado.Arquivos;
+using GestaoDeEquipamentoWeb.Models;
+using GestaoDeEquipamentoWeb.ModuloEquipamento;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace GestaoDeEquipamentosWeb.ConsoleApp.Controllers;
+namespace GestaoDeEquipamentoWeb.Controllers;
 
 public class ChamadoController : Controller
 {
@@ -191,3 +191,4 @@ public class ChamadoController : Controller
         return selecionarEquipamentos;
     }
 }
+

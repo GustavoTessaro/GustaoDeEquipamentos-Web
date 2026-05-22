@@ -1,6 +1,6 @@
 using GestaoDeEquipamentoWeb.Compartilhado.Arquivos;
 
-namespace GestaoDeEquipamentosWeb.ConsoleApp.ModuloFabricante;
+namespace GestaoDeEquipamentoWeb.ModuloFabricante;
 
 public class Fabricante : EntidadeBase<Fabricante>
 {
@@ -40,3 +40,4 @@ public class Fabricante : EntidadeBase<Fabricante>
         Telefone = entidadeAtualizada.Telefone;
     }
 }
+

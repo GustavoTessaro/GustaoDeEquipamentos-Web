@@ -1,6 +1,6 @@
-using GestaoDeEquipamentosWeb.ConsoleApp.Compartilhado.Arquivos;
+using GestaoDeEquipamentoWeb.Compartilhado.Arquivos;
 
-namespace GestaoDeEquipamentosWeb.ConsoleApp.ModuloFabricante;
+namespace GestaoDeEquipamentoWeb.ModuloFabricante;
 
 public class RepositorioFabricanteEmArquivo : RepositorioBase<Fabricante>, InterfaceRepositorio<Fabricante>
 {
@@ -11,3 +11,4 @@ public class RepositorioFabricanteEmArquivo : RepositorioBase<Fabricante>, Inter
         return contexto.Fabricantes;
     }
 }
+

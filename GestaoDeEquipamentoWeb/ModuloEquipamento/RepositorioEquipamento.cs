@@ -1,5 +1,5 @@
-using GestaoDeEquipamentosWeb.ConsoleApp.Compartilhado.Arquivos;
-using GestaoDeEquipamentosWeb.ConsoleApp.ModuloEquipamento;
+using GestaoDeEquipamentoWeb.Compartilhado.Arquivos;
+using GestaoDeEquipamentoWeb.ModuloEquipamento;
 
 public class RepositorioEquipamentoEmArquivo : RepositorioBase<Equipamento>, InterfaceRepositorio<Equipamento>
 {
@@ -10,3 +10,4 @@ public class RepositorioEquipamentoEmArquivo : RepositorioBase<Equipamento>, Int
         return contexto.Equipamentos;
     }
 }
+

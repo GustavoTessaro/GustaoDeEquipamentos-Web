@@ -1,6 +1,6 @@
-using GestaoDeEquipamentosWeb.ConsoleApp.Compartilhado.Arquivos;
-using GestaoDeEquipamentosWeb.ConsoleApp.Models;
-using GestaoDeEquipamentosWeb.ConsoleApp.ModuloFabricante;
+using GestaoDeEquipamentoWeb.Compartilhado.Arquivos;
+using GestaoDeEquipamentoWeb.Models;
+using GestaoDeEquipamentoWeb.ModuloFabricante;
 using Microsoft.AspNetCore.Mvc;
 
 public class FabricanteController : Controller
@@ -135,3 +135,4 @@ public class FabricanteController : Controller
         return RedirectToAction(nameof(Listar));
     }
 }
+
